@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Dawam Amali and I'm a computer science student who loves building useful things</h2>
+<img src="banner-github.png" alt="GitHub Banner" width="100%" />
 
 ###
 
