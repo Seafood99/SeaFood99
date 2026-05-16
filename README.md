@@ -54,9 +54,7 @@
   </div>                                                                                                                                                         
                                                                                                                                                                  
   ---                                                                                                                                                            
-                                                                                                                                                                 
-### GitHub Stats                                                                                                                                               
-                                                                                                                                                                 
+                                                                                                                                                             
  ## Profile Summary                                                                                                                                             
                                                                                                                                                                  
   <div align="center">                                                                                                                                           
