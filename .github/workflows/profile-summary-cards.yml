@@ -1,27 +1,32 @@
-name: Profile Summary Cards
+name: GitHub Profile Summary Cards                                                                                                                             
+                                                                                                                                                                 
+  on:                                                                                                                                                            
+    workflow_dispatch:                                                                                                                                           
+    schedule:                                                                                                                                                    
+      - cron: "0 0 * * *"                                                                                                                                        
+    push:                                                                                                                                                        
+      branches:                                                                                                                                                  
+        - main                                                                                                                                                   
+                                                                                                                                                                 
+  jobs:                                                                                                                                                          
+    build:                                                                                                                                                       
+      runs-on: ubuntu-latest                                                                                                                                     
+      name: Generate GitHub Profile Summary Cards                                                                                                                
+                                                                                                                                                                 
+      permissions:                                                                                                                                               
+        contents: write                                                                                                                                          
+                                                                                                                                                                 
+      steps:                                                                                                                                                     
+        - name: Checkout                                                                                                                                         
+          uses: actions/checkout@v4                                                                                                                              
 
-on: 
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch: 
-  push:
-    branches:
-      - main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      - uses: action/checkout@v4
-
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}                                                                                                            
+        - name: Generate cards                                                                                                                                   
+          uses: vn7n24fzkq/github-profile-summary-cards@release                                                                                                  
+          env:                                                                                                                                                   
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}                                                                                                            
           with:                                                                                                                                                  
-            USERNAME: Seafood99                                                                                                                                  
-            BRANCH_NAME: main                                                                                                                                    
-            UTC_OFFSET: 7                                                                                                                                        
-            AUTO_PUSH: true
+            USERNAME: "Seafood99"                                                                                                                                
+            BRANCH_NAME: "main"                                                                                                                                  
+            UTC_OFFSET: "7"                                                                                                                                      
+            EXCLUDE: ""                                                                                                                                          
+            AUTO_PUSH: "true"
