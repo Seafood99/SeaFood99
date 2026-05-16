@@ -1,6 +1,6 @@
 name: GitHub Profile Summary Cards                                                                                                                             
                                                                                                                                                                  
-  on:                                                                                                                                                            
+on:                                                                                                                                                            
     workflow_dispatch:                                                                                                                                           
     schedule:                                                                                                                                                    
       - cron: "0 0 * * *"                                                                                                                                        
@@ -8,7 +8,7 @@ name: GitHub Profile Summary Cards
       branches:                                                                                                                                                  
         - main                                                                                                                                                   
                                                                                                                                                                  
-  jobs:                                                                                                                                                          
+jobs:                                                                                                                                                          
     build:                                                                                                                                                       
       runs-on: ubuntu-latest                                                                                                                                     
       name: Generate GitHub Profile Summary Cards                                                                                                                
