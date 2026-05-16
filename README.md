@@ -57,20 +57,13 @@
                                                                                                                                                                  
 ### GitHub Stats                                                                                                                                               
                                                                                                                                                                  
+ ## Profile Summary                                                                                                                                             
+                                                                                                                                                                 
   <div align="center">                                                                                                                                           
-    <img                                                                                                                                                         
-      src="https://github-readme-stats.vercel.app/api?                                                                                                           
-  username=Seafood99&show_icons=true&theme=dracula&hide_border=false&rank_icon=github&cache_seconds=21600&v=2"                                                   
-      height="165"                                                                                                                                               
-      alt="GitHub stats"                                                                                                                                         
-    />                                                                                                                                                           
-    <img                                                                                                                                                         
-      src="https://github-readme-stats.vercel.app/api/top-langs?                                                                                                 
-  username=Seafood99&layout=compact&langs_count=6&theme=dracula&hide_border=false&cache_seconds=21600&v=2"                                                       
-      height="165"                                                                                                                                               
-      alt="Top languages"                                                                                                                                        
-    />                                                                                                                                                           
-  </div>                                                                                                                                                         
+    <img src="https://raw.githubusercontent.com/seafood99/seafood99/main/profile-summary-card-output/dracula/0-profile-details.svg" width="100%" />              
+    <img src="https://raw.githubusercontent.com/seafood99/seafood99/main/profile-summary-card-output/dracula/1-repos-per-language.svg" width="49%" />            
+    <img src="https://raw.githubusercontent.com/seafood99/seafood99/main/profile-summary-card-output/dracula/2-most-commit-language.svg" width="49%" />          
+  </div>                                                                                                                                                              
                                                                                                                                                                  
   <div align="center">                                                                                                                                           
     <img                                                                                                                                                         
